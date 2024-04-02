@@ -15,8 +15,7 @@ array.sort(function (a, b) {
 let y =  (array.slice('0','1'));
 console.log(y);
 
-temp = x;
-x = y;
-y = temp
+[array[0], array[9]] = [array[9], array[0]];
 
-console.log(x,y);
+
+console.log(array);
