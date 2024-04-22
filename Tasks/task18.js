@@ -1,10 +1,8 @@
-// исходный код
 const user = {
     id: 7,
     name: 'Bob',
     token: 12343423
 };
-
 const userLogPass = {
     login: 'Bobby',
     password: 'Bobby123',

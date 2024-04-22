@@ -1,11 +1,3 @@
-<!-- // todo: Задана форма пользовательского профиля. 
-// Поля: Имя, фамилия, возраст, образование, биография.
-// Релизовать логику сохранения формы через sessionStorage.
-// При перезагрузки страницы, данные введенные пользователем
-// должны сохраняться. При нажатии на кнопку очистить, форма
-// очищается.  -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,46 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task20</title>
 </head>
-<body>
-    <br>
-    <textarea style="width:auto; height: auto;" id="area1" placeholder="Name"></textarea>
-    <br>
-    <textarea style="width:auto; height: auto;" id="area2" placeholder="Surname"></textarea>
-    <br>
-    <textarea style="width:auto; height: auto;" id="area3" placeholder="Age"></textarea>
-    <br>
-    <textarea style="width:auto; height: auto;" id="area4" placeholder="Education"></textarea>
-    <br>
-    <textarea style="width:auto; height: auto;" id="area5" placeholder="Biography"></textarea>
-    <br>
-    <button onclick="sessionStorage.removeItem('area1','area2','area3','area4','area5', );
-    area1.value='';area2.value='';area3.value='';area4.value='';area5.value='';">Clear</button>   
+<body><br>
+    <textarea style="width:auto; height: auto;" id="area1" placeholder="Name"></textarea><br>
+    <textarea style="width:auto; height: auto;" id="area2" placeholder="Surname"></textarea><br>
+    <textarea style="width:auto; height: auto;" id="area3" placeholder="Age"></textarea><br>
+    <textarea style="width:auto; height: auto;" id="area4" placeholder="Education"></textarea><br>
+    <textarea style="width:auto; height: auto;" id="area5" placeholder="Biography"></textarea><br>
+    <button onclick="sessionStorage.removeItem('area1','area2','area3','area4','area5',); area1.value='';area2.value='';area3.value='';area4.value='';area5.value='';">Clear</button>   
 </body>
 
 <script>
     area1.value = sessionStorage.getItem('area1');
-    area1.oninput = () => {
-      sessionStorage.setItem('area1', area1.value)
-    };
+        area1.oninput = () => {sessionStorage.setItem('area1', area1.value)};
     area2.value = sessionStorage.getItem('area2');
-    area2.oninput = () => {
-      sessionStorage.setItem('area2', area2.value,)
-    };
+        area2.oninput = () => {sessionStorage.setItem('area2', area2.value,)};
     area3.value = sessionStorage.getItem('area3');
-    area3.oninput = () => {
-      sessionStorage.setItem('area3', area1.value)
-    };
+        area3.oninput = () => {sessionStorage.setItem('area3', area3.value)};
     area4.value = sessionStorage.getItem('area4');
-    area4.oninput = () => {
-      sessionStorage.setItem('area4', area4.value,)
-    };
+        area4.oninput = () => {sessionStorage.setItem('area4', area4.value,)};
     area5.value = sessionStorage.getItem('area5');
-    area5.oninput = () => {
-      sessionStorage.setItem('area5', area1.value)
-    };    
+        area5.oninput = () => {sessionStorage.setItem('area5', area5.value)};    
 </script>
 
 </html>
-
-
-
