@@ -1,0 +1,16 @@
+/* Шапка  */
+
+.footer {
+   
+    background-color: beige;
+    margin-top: 10px;
+    min-height: calc(40vh - 40px);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-style: italic;
+}
+

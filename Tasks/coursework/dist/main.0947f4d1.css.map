@@ -1,0 +1,1 @@
+{"mappings":"AAGA","sources":["src/js/components/mainTitle/mainTitle.css"],"sourcesContent":["\r\n\r\n/* Главный заголовок */\r\n.main-title{\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n    margin-left: 20px;\r\n    display: flex;\r\n    align-items: center;\r\n}"],"names":[],"version":3,"file":"main.0947f4d1.css.map","sourceRoot":"/__parcel_source_root/"}

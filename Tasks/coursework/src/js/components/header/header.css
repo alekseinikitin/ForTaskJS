@@ -1,0 +1,27 @@
+/* Шапка  */
+
+.header {
+   
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    align-self: center;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+   
+    margin-right: 600px;
+
+    transition: background-color .3s;
+   
+}

@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  opacity: 1;
+  max-width: 100%;
+}
+
+body {
+  background-color: #e3eece;
+  background-image: url("background4.2b0d756a.jpg");
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  padding: o 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  background-color: #6f6f58;
+  border: none;
+  border-radius: 0;
+  outline: 1px solid #0000;
+  padding: 15px 30px;
+  transition: background-color .3s, outline-color .3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #acac8b;
+}
+
+.btn:active {
+  background-color: #dcdcb4;
+}
+
+.btn:focus {
+  outline-color: #6f6f58;
+}
+
+.page {
+  background-color: #fff;
+  padding: 0;
+}
+
+.product-list {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+
+.img404 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.imgMain {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
