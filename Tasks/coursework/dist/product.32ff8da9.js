@@ -636,6 +636,7 @@ function getProductCardDet(desc, title, pic, price) {
     productTitleId.textContent = desc;
     const productTitle = document.createElement("h2");
     productTitle.classList.add("product-list__titleDet");
+    productTitle.textContent = title;
     let productImg = document.createElement("img");
     productImg.classList.add("product-list__imgDet");
     productImg.src = pic;

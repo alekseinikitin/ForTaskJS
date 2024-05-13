@@ -13,7 +13,7 @@ export function getProductCardDet(desc, title,  pic, price) {
     
     const productTitle = document.createElement ("h2")
     productTitle.classList.add("product-list__titleDet")
-   
+    productTitle.textContent= title
     
     let productImg = document.createElement("img");
     productImg.classList.add("product-list__imgDet") 
